@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(bg.jpg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 1560px 750px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(96, 80, 80);
+    padding: 30px;
+    box-shadow: 50px 50px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-top: 30px;
+  }
+  
+  .title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: serif;
+    margin-bottom: 30px;
+    color: rgb(249, 241, 241);
+  }
+  
+  form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #333;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(160, 104, 115);
+    color: #fff;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: -37px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .delete{
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .complete{
+    padding: 10px 20px;
+    background-color: #06c261;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .delete:hover,
+  .complete:hover {
+    background-color: #333;
+  }
+  
